@@ -1,0 +1,368 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "poppins", sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.nav-container{
+	width: 100%;
+	background-color: white;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	
+	
+}
+.container-1{
+	width: 100%;
+	padding: 25px;
+	background-color: rgb(17, 124, 245);
+	color: white;
+	font-weight: lighter;
+	text-align: left;
+}
+.container-2{
+	width: 100%;
+	padding: 15px;
+	background-color: rgb(227, 237, 241);
+
+}
+#container-2{
+	color: rgb(39, 85, 236);
+	font-size: small;
+}
+
+
+.container-3{
+	width: 100%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	gap: 20px;
+}
+.container-4{
+	width: 100%;
+	background-color: rgb(224, 224, 235);
+	
+	
+}
+
+.container-h1{
+	
+	padding: 50px;
+	width: 50%;
+	word-spacing: 5px;
+}
+.h1{
+	font-weight: 30px;
+	font-size: 70px;
+	
+}
+.p1{
+	font-size: larger;
+	padding: 50px;
+}
+
+.img1{
+	width: 50%;
+	height: 20%;
+	margin-top: 100px;
+}
+
+.container-h2{
+	
+	padding: 20px;
+	width: 50%;
+	word-spacing: 5px;
+}
+.h2{
+	font-weight: 30px;
+	font-size: 50px;
+	
+}
+.p1{
+	font-size: larger;
+}
+
+
+.nav-logo{
+	width: 20%;
+}
+
+button{
+	padding: 10px;
+	margin: 5px;
+	background-color: white;
+	border:none ;
+}
+button:hover{
+	background-color: rgb(164, 175, 175);
+}
+
+.nav-btn{
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+.nav-btn:hover{
+	background-color: rgb(164, 175, 175)
+}
+
+.menu-list{
+	display: flex;
+	gap:20px;
+	cursor: pointer;
+	list-style: none;
+	padding: 0;
+}
+
+
+
+.menu-list li a{
+	color: rgb(104, 96, 96);
+
+}
+
+.menu-list li a:hover{
+	background-color: green;
+}
+
+
+
+.flex-container{
+	display: flex;
+	padding: 50px;
+	width: 100%;
+
+}
+
+.flex-item{
+	width: 100%;
+	height: 580px;
+	background-color: rgb(224, 224, 235);
+	color: rgb(58, 54, 54);
+	padding: 40px;
+	text-align: center;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.flex-container2{
+	width: 100%;
+	display: flex;
+	padding: 20px;
+	background-color: rgb(224, 224, 235)
+	
+}
+
+.flex-container3{
+	display: flex;
+	width: 100%;
+}
+
+.flex-container4{
+	display: flex;
+	width: 100%;
+	background-color: rgb(224, 224, 235) ;
+}
+
+.flex-container5{
+	display: flex;
+}
+
+.flex-container6{
+	display: flex;
+	width: 100%;
+	background-color: rgb(224, 224, 235) ;
+
+
+}
+
+.flex-container7{
+	display: flex;
+	width: 100%;
+}
+
+.flex-container8{
+	display: flex;
+	width: 100%;
+	background-color: rgb(224, 224, 235) ;
+
+}
+
+.flex-container9{
+	display: flex;
+	width: 100%;
+}
+
+.flex-container10{
+	width: 100%;
+	background-color: rgb(224, 224, 235);
+	justify-content: center;
+	padding: 20px 20px;
+
+}
+.form-row{
+	display: flex;
+	gap: 10px;
+	margin-bottom: 20px;
+
+}
+.h1{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+
+label{
+	display: block;
+	color: #777;
+	margin-bottom: 8px;
+	font-size: 18px;
+}
+input,select{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ddd;
+	font-size: 18px;
+	background: white;
+
+}
+.info{
+	color: #666;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 35px;
+}
+
+.checkbox-group{
+	display: flex;
+	align-items: flex-start;
+	gap: 15px;
+	margin-bottom: 20px;
+}
+
+.checkbox-group input{
+	width: 20px;
+	height: 22px;
+	margin-top: 2px;
+
+}
+
+
+.h4{
+	text-align: center;
+	margin-bottom: 60px;
+	color: #666;
+}
+
+.checkbox-group label{
+	margin: 0;
+	color: #666;
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+.btn-container{
+	text-align: center;
+
+}
+
+.btn-buttom{
+	color: blue;
+	font-size: large;
+	border-radius: 5px;
+}
+
+.input-group{
+	flex: 1;
+}
+
+
+
+a{
+	color: black;
+	display: flex;
+	
+}
+
+.flex-item1{
+	width: 100%;
+	height: 580px;
+	background-color: white;
+	color: rgb(58, 54, 54);
+	padding: 40px;
+	text-align: center;
+	border-radius: 10px;
+	margin: 20px;
+}
+.flex-item2{
+	width: 100%;
+	height: 580px;
+	background-color: rgb(224, 224, 235);
+	color: rgb(82, 78, 78);
+	padding: 40px;
+	text-align: center;
+	border-radius: 10px;
+	align-items: center;
+	margin: 20px;
+}
+
+
+.p2{
+	font-size: small;
+	margin-top: 20px;
+	
+}
+
+h5{
+	color: blue;
+	text-align: left;
+}
+
+
+.flex-image{
+	width: 90%;
+	border-radius: 10px;
+
+}
+
+.btn{
+	width: 50%;
+	background-color: white;
+	color: blue;
+	border-radius: 30px;
+	padding: 16px;
+	border: 2px solid blue;
+	margin-top: 20px;
+
+
+}
+.btn1{
+	
+	width: 16%;
+	background-color: white;
+	color: blue;
+	border-radius: 30px;
+	padding: 20px;
+	border: 2px solid blue;
+	margin-left: 90px;
+	margin-bottom: 50px;
+	justify-content: right;
+
+}
+
+.btn:hover{
+	background-color: navy;
+}
+
+h1, p{
+	text-align: left;
+}
